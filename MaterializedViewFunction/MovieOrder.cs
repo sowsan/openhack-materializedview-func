@@ -12,7 +12,7 @@ namespace MaterializedViewFunction
         public double UnitPrice { get; set; }
     }
 
-    public class MoviewOrder
+    public class MovieOrder
     {
         public string Region { get; set; }
         public DateTime OrderDate { get; set; }

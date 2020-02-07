@@ -40,7 +40,7 @@ namespace MaterializedViewFunction
 
                 foreach (var doc in input)
                 {
-                    var movieOrder = JsonConvert.DeserializeObject<MoviewOrder>(doc.ToString());
+                    var movieOrder = JsonConvert.DeserializeObject<MovieOrder>(doc.ToString());
 
                     foreach (Detail detail in movieOrder.Details)
                     {
